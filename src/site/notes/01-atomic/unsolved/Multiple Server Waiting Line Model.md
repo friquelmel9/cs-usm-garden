@@ -13,11 +13,10 @@ The Multiple Server Waiting Line Model ( M/M/k in [[01-atomic/unsolved/Kendall's
 - The [[01-atomic/unsolved/Queueing Theory#Service Time\|Queueing Theory#Service Time]] follows a [[01-atomic/math/Exponential Probability Distribution\|Exponential Probability Distribution]] $(\mu)$
 - Must be [[01-atomic/unsolved/Queueing Theory#Stationary State\|Queueing Theory#Stationary State]], so $\lambda < \mu$
 
- [[01-atomic/unsolved/Queueing Theory#Operating Characteristics\|Queueing Theory#Operating Characteristics]] for the Multiple Server 
- #formula 
- $$
- \begin{aligned}
-P_0 &= \frac{1}{\left[\sum_{n=0}^{k-2} \frac{(\rho k)^n}{n!}\right] + \frac{(\rho k)^{k-1}}{(k-1)!(1-\rho)}}, \\
+ > [!formula] [[01-atomic/unsolved/Queueing Theory#Operating Characteristics\|Queueing Theory#Operating Characteristics]] for the Multiple Server 
+ > #formula 
+ > $$ \begin{aligned} 
+ P_0 &= \frac{1}{\left[\sum_{n=0}^{k-2} \frac{(\rho k)^n}{n!}\right] \frac{(\rho k)^{k-1}}{(k-1)!(1-\rho)}}, \\
 P_n &= \frac{(\rho k)^n}{n!} P_0 \ (n \leq k), \\
 P_n &= \frac{\rho^n k^k}{k!} P_0 \ (n > k), \\
 L_q &= \frac{\rho^{k+1} k^{k-1}}{(k-1)!(1-\rho)^2} P_0, \\
